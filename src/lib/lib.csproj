@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MyProject.Lib</AssemblyName>
+    <PackageId>MyProject.Lib</PackageId>
+    <RootNamespace>MyProject.Lib</RootNamespace>
+    <GenerateFullPaths>true</GenerateFullPaths>
+    <OutputType>Library</OutputType>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Version>1.0.20.0-alpha</Version>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Test</Authors>
+    <Company>Test</Company>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyTitle>MyProject.Lib</AssemblyTitle>
+    <Description>
+      Test.
+    </Description>
+    <Copyright>Copyright © Test</Copyright>
+    <UserSecretsId>Test</UserSecretsId>
+  </PropertyGroup>
+</Project>
